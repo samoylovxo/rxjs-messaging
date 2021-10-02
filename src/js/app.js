@@ -3,7 +3,7 @@ import { ajax } from 'rxjs/ajax';
 import { map, catchError } from 'rxjs/operators';
 
 (() => {
-  const url = 'http://localhost:7070';
+  const url = 'https://rxjs-messaging-serverside.herokuapp.com';
   const messagesElem = document.querySelector('.messages');
 
   interval(5000)
